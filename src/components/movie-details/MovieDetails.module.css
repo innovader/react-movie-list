@@ -1,0 +1,14 @@
+.empty {
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+}
+
+.details {
+  width: 50vw;
+  padding: 0 32px;
+}
+
+.director {
+  font-size: 14px;
+}

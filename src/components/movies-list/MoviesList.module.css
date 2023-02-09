@@ -1,0 +1,23 @@
+.list {
+  width: 50vw;
+  border-right: 2px solid rgb(223, 223, 223);
+  list-style-type: none;
+  padding-left: 16px;
+  margin: 0;
+}
+
+.item {
+  padding: 8px 16px;
+  border-bottom: 1px solid rgb(223, 223, 223);
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:hover {
+  background-color: rgb(237, 237, 237);
+  cursor: pointer;
+}
+
+.episode {
+  font-size: 14px;
+}

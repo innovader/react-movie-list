@@ -1,0 +1,20 @@
+.filters {
+  background-color: rgb(237, 237, 237);
+  border-top: 1px solid rgb(213, 213, 213);
+  border-bottom: 1px solid rgb(223, 223, 223);
+  padding: 16px;
+  display: flex;
+}
+
+.sortingText {
+  margin-right: 5px;
+  margin-left: 16px;
+}
+
+.movies {
+  display: flex;
+}
+
+select:hover {
+  cursor: pointer;
+}
