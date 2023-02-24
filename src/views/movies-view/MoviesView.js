@@ -31,9 +31,6 @@ function MoviesView() {
   useEffect(() => {
     const url = "https://swapi.dev/api/films";
     const filterList = (data, value) => {
-      if (value === "") {
-        return handleSorting(data, selectedSorting);
-      }
       const filteredMovies = data.filter(
         (movie) =>
           movie.episode_id.toString().includes(value.toLowerCase()) ||
@@ -54,7 +51,7 @@ function MoviesView() {
   }, [selectedSorting, searchValue]);
 
   return (
-    <div className={styles.container}>
+    <div>
       <div className={styles.filters}>
         <label>
           <span className={styles.sortingText}>Sort by:</span>
